@@ -1,10 +1,25 @@
-# ebscrap
-ebscrap is just some scrapers that i use to collect data from different websites to use in my projects.
+# goscraply
+A simple package to scrap websites.
 
-### How to use
-Currently only thing you should do is change the URL in scraper to the URL you want to get items from it, and type this command in terminal:
+## Supported websites
+* [Goodread](https://goodread.com)
+* [Listchallenges](http://listchallenges.com)
+### Usage
+```go
+package main
+
+import(
+    "fmt"
+    "github.com/erbesharat/ebscraply"
+)
+
+func main(){
+    books := ebscraply.goodreads("horror")
+    fmt.Println(books)
+}
 ```
-go run FILENAME.go
-```
+### Todo
+* Add other websites
+* Test
 ### License
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
