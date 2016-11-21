@@ -4,7 +4,8 @@ A simple package to scrap websites.
 ## Supported websites
 * [Goodread](https://goodread.com)
 * [Listchallenges](http://listchallenges.com)
-### Usage
+
+## Usage
 ```go
 package main
 
@@ -18,8 +19,9 @@ func main(){
     fmt.Println(books)
 }
 ```
-### Todo
+## Todo
 * Add other websites
 * Test
-### License
+
+## License
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
